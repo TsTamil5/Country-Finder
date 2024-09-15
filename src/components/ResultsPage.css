@@ -1,0 +1,74 @@
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: linear-gradient(135deg, #e2e2e2 0%, #ffffff 100%);
+  margin: 0;
+  padding: 0;
+}
+
+.results-container {
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 30px;
+  background: #fff; /* White background for results */
+  border-radius: 12px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.results-title {
+  font-size: 2rem;
+  color: #ff5733; /* Bright orange title color */
+  margin-bottom: 20px;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+}
+
+.results-list {
+  margin-top: 20px;
+}
+
+.result-item {
+  display: flex;
+  align-items: flex-start;
+  background-color: #f9f9f9; /* Light gray background for items */
+  padding: 15px;
+  border-radius: 8px;
+  margin: 10px 0;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s;
+  text-align: left;
+}
+
+.result-item:hover {
+  transform: scale(1.02); /* Slight scale on hover */
+}
+
+.country-icon {
+  margin-right: 15px;
+  font-size: 1.5rem; /* Icon size */
+  color: #007bff; /* Blue color for icon */
+}
+
+.country-info {
+  display: flex;
+  flex-direction: column; /* Stack details vertically */
+  align-items: flex-start;
+}
+
+.country-name {
+  font-weight: bold;
+  font-size: 1.2rem;
+  color: #ff5733; /* Bright orange color for country name */
+  margin-bottom: 5px; /* Space between name and details */
+}
+
+.detail {
+  color: #007bff; /* Blue color for details */
+  font-size: 1rem;
+  margin-bottom: 5px; /* Space between details */
+}
+
+.no-results {
+  margin-top: 20px;
+  color: #dc3545; /* Red for no results */
+  font-size: 1.2rem;
+}
